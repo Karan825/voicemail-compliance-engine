@@ -124,6 +124,18 @@ http://127.0.0.1:8000/audio/stream
 python logic.py
 ```
 choose the file to stream : 1 (for example)
+
 <p align="center">
   <img src="voicemail_demo.gif" alt="Voicemail Compliance Engine Demo" width="800">
 </p>
+
+```python
+ [CALL CONNECTED]
+ Listening to voicemail...
+
+⏱   10.0s | level=0.1357 | listening...
+
+[COMPLIANCE DECISION]
+Reason : Beep detected
+Action : Start voicemail at 10.44s
+```
