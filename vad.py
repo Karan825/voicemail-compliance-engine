@@ -4,7 +4,7 @@ class VAD:
     def __init__(
         self,
         energy_threshold=2.0, # So this tells us that how much louder a frae need to be to count as a speech
-        smoothing=0.01 # This controls how fast the noise floor adapts.
+        smoothing=0.05 # This controls how fast the noise floor adapts.
     ):
         """
         energy_threshold:
@@ -35,5 +35,6 @@ class VAD:
 
         # 4. Compare energy to noise floor
         ratio = energy/(self.noise_floor+1e-9)
+
 
         return ratio > self.energy_threshold
