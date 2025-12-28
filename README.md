@@ -150,23 +150,23 @@ File 1: vm1_output.wav
   Decision Reason   : Beep detected
 
 File 2: vm2_output.wav
-  Start Voicemail At : 8.44 seconds
+  Start Voicemail At : 10.02 seconds
   Decision Reason   : Sustained silence after greeting
 
 File 3: vm3_output.wav
-  Start Voicemail At : 8.74 seconds
+  Start Voicemail At : 10.7 seconds
   Decision Reason   : Sustained silence after greeting
 
 File 4: vm4_output.wav
-  Start Voicemail At : 4.62 seconds
+  Start Voicemail At : 6.58 seconds
   Decision Reason   : Sustained silence after greeting
 
 File 5: vm5_output.wav
-  Start Voicemail At : 14.34 seconds
+  Start Voicemail At : 16.34 seconds
   Decision Reason   : Sustained silence after greeting
 
 File 6: vm6_output.wav
-  Start Voicemail At : 3.88 seconds
+  Start Voicemail At : 5.86 seconds
   Decision Reason   : Sustained silence after greeting
 
 File 7: vm7_output.wav
