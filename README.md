@@ -139,3 +139,41 @@ choose the file to stream : 1 (for example)
 Reason : Beep detected
 Action : Start voicemail at 10.44s
 ```
+### Output
+```bash
+======================================================================
+COMPLIANT VOICEMAIL DROP REPORT (OFFLINE EVALUATION)
+======================================================================
+
+File 1: vm1_output.wav
+  Start Voicemail At : 10.42 seconds
+  Decision Reason   : Beep detected
+
+File 2: vm2_output.wav
+  Start Voicemail At : 8.44 seconds
+  Decision Reason   : Sustained silence after greeting
+
+File 3: vm3_output.wav
+  Start Voicemail At : 8.74 seconds
+  Decision Reason   : Sustained silence after greeting
+
+File 4: vm4_output.wav
+  Start Voicemail At : 4.62 seconds
+  Decision Reason   : Sustained silence after greeting
+
+File 5: vm5_output.wav
+  Start Voicemail At : 14.34 seconds
+  Decision Reason   : Sustained silence after greeting
+
+File 6: vm6_output.wav
+  Start Voicemail At : 3.88 seconds
+  Decision Reason   : Sustained silence after greeting
+
+File 7: vm7_output.wav
+  Start Voicemail At : 11.78 seconds
+  Decision Reason   : Beep detected
+
+======================================================================
+END OF REPORT
+======================================================================
+```
