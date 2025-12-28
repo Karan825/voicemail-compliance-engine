@@ -112,11 +112,10 @@ def main():
                 #  Silence-based fallback
                 # =========================
                 if heard_speech and silence_duration >= SILENCE_THRESHOLD_SEC:
-                    start_time = timestamp - silence_duration
                     print(
                         "\n\n [COMPLIANCE DECISION]"
                         "\nReason : Sustained silence (no beep)"
-                        f"\nAction : Start voicemail at {start_time + SILENCE_OFFSET:.2f}s\n"
+                        f"\nAction : Start voicemail at {timestamp + SILENCE_OFFSET:.2f}s\n"
                     )
                     decision_made = True
                     return
@@ -124,4 +123,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
