@@ -177,3 +177,38 @@ File 7: vm7_output.wav
 END OF REPORT
 ======================================================================
 ```
+## Spectogram
+### VM1
+<p align="center">
+  <img src="Audio/vm1.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
+
+### VM2
+<p align="center">
+  <img src="Audio/vm2.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
+
+### VM3
+<p align="center">
+  <img src="Audio/vm3.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
+
+### VM4
+<p align="center">
+  <img src="Audio/vm4.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
+
+### VM5
+<p align="center">
+  <img src="Audio/vm5.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
+
+### VM6
+<p align="center">
+  <img src="Audio/vm6.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
+
+### VM7
+<p align="center">
+  <img src="Audio/vm7.png" alt="Voicemail Compliance Engine Demo" width="800">
+</p>
