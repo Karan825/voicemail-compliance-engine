@@ -9,7 +9,9 @@ from vad import VAD
 # =========================
 # STREAM CONFIG
 # =========================
-STREAM_URL = "http://127.0.0.1:8000/audio/stream?file=vm1"
+print('Choose file number to stream:')
+n = int(input())
+STREAM_URL = f"http://127.0.0.1:8000/audio/stream?file=vm{n}"
 
 SAMPLE_RATE = 8000
 FRAME_DURATION = 0.02  # 20 ms
